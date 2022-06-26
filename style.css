@@ -20,6 +20,11 @@ body {
     padding: 5px;
 }
 
+.image-resize {
+    height:50%;
+    width:50%;
+}
+
 /* @media only screen and (max-width: 400px) {
     #aik {
         height: auto;
