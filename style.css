@@ -9,3 +9,12 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
+.grid-container {
+    display: grid;
+    gap: 50px 100px;
+}
+
+.grid-item {
+    padding: 20px;
+}
