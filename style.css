@@ -12,9 +12,32 @@ body {
 
 .grid-container {
     display: grid;
-    gap: 50px 100px;
+    gap: 30px 100px;
+    padding: 10px;
 }
 
 .grid-item {
-    padding: 20px;
+    padding: 5px;
+}
+
+/* @media only screen and (max-width: 400px) {
+    #aik {
+        height: auto;
+        width: auto;
+    }
+
+    .mobile-hw {
+        height: auto;
+        width: auto;
+    }
+} */
+
+/* iphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	img { max-width: 100%; }
+}
+
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	img { max-width: 100%; }
 }
